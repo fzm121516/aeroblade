@@ -89,3 +89,7 @@ python experiments/03_deeper_reconstructions.py --experiment-id deeper_sd15 --re
 python experiments/03_deeper_reconstructions.py --experiment-id deeper_sd21 --real-dir data/raw/real --fake-dir data/raw/generated/stabilityai-stable-diffusion-2-1-base-ViT-H-14-laion2b_s32b_b79k --repo-id stabilityai/stable-diffusion-2-1-base
 ```
 To use pre-computed distances of real images add `--precomputed-real-dist data/precomputed/03_deeper_sd15_real_dist.pickle` and `--precomputed-real-dist data/precomputed/03_deeper_sd21_real_dist.pickle`, respectively.
+
+
+
+python experiments/01_detect.py --precomputed-real-dist ./data/precomputed/01_default_real_dist.pickle
